@@ -4,7 +4,11 @@
 angular.module('phonecatApp', [
   'ngAnimate',
   'ngRoute',
+  'ngMessageFormat',
   'core',
   'phoneDetail',
-  'phoneList'
-]);
+  'phoneList',
+  'phoneEdit',
+  'phoneHistory',
+  'pascalprecht.translate'
+])

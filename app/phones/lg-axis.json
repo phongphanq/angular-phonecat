@@ -8,8 +8,8 @@
         "Cellular South"
     ], 
     "battery": {
-        "standbyTime": "500 hours", 
-        "talkTime": "8 hours", 
+        "standbyTime": "500", 
+        "talkTime": "8", 
         "type": "Lithium Ion (Li-Ion) (1500 mAH)"
     }, 
     "camera": {

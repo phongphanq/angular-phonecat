@@ -8,8 +8,8 @@
         "Sprint"
     ], 
     "battery": {
-        "standbyTime": "930 hours", 
-        "talkTime": "9 hours", 
+        "standbyTime": "930", 
+        "talkTime": "9", 
         "type": "Lithium Ion (Li-Ion) (1500 mAH)"
     }, 
     "camera": {

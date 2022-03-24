@@ -7,6 +7,13 @@ h1 {
   margin-top: 0;
 }
 
+.phone-history-title{
+  border-top: 1px solid gray;
+  margin: 5px;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
 /* View: Phone list */
 .phones {
   list-style: none;
@@ -70,6 +77,10 @@ h1 {
   margin: 1em;
 }
 
+.phone-thumbs li.phone-history-detail{
+  border: none;
+}
+
 .specs {
   clear: both;
   list-style: none;
@@ -90,4 +101,21 @@ h1 {
 .specs > li > span {
   font-size: 1.2em;
   font-weight: bold;
+}
+
+.css-form input.ng-invalid.ng-touched {
+  /* background-color: #FA787E; */
+  border-color: #FA787E;
+}
+
+/* .css-form input.ng-valid.ng-touched {
+  background-color: #78FA89;
+} */
+
+.css-form .error {
+  color: #FA787E;
+}
+
+.css-form .error {
+  color: #FA787E;
 }

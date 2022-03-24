@@ -1,0 +1,15 @@
+{
+    "TITLE": "Hello",
+    "FOO": "This is a paragraph.",
+    "BUTTON_LANG_EN": "English",
+    "BUTTON_LANG_VI": "Tiếng việt",
+    "SEARCH": "Search:",
+    "SORT_BY": "Sort by:",
+    "EDIT": "Edit",
+    "AVAILABILITY": "Availability:",
+    "TALK_TIME": "Talk time:",
+    "STANDBY_TIME": "Standby time (max):",
+    "SAVE": "Save",
+    "ALPHABETICAL": "Alphabetical",
+    "NEWEST": "Newest"
+}

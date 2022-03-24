@@ -8,8 +8,8 @@
         "Verizon"
     ], 
     "battery": {
-        "standbyTime": "330 hours", 
-        "talkTime": "7 hours", 
+        "standbyTime": "330", 
+        "talkTime": "7", 
         "type": "Lithium Ion (Li-Ion) (1400 mAH)"
     }, 
     "camera": {

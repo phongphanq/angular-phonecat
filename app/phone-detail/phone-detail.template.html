@@ -28,9 +28,9 @@
       <dt>Type</dt>
       <dd>{{$ctrl.phone.battery.type}}</dd>
       <dt>Talk Time</dt>
-      <dd>{{$ctrl.phone.battery.talkTime}}</dd>
+      <dd>{{$ctrl.phone.battery.talkTime}} hours</dd>
       <dt>Standby time (max)</dt>
-      <dd>{{$ctrl.phone.battery.standbyTime}}</dd>
+      <dd>{{$ctrl.phone.battery.standbyTime}} hours</dd>
     </dl>
   </li>
   <li>
@@ -115,3 +115,7 @@
     <dd>{{$ctrl.phone.additionalFeatures}}</dd>
   </li>
 </ul>
+<button>
+  <a href="{{$ctrl.getDetailEditUrl()}}">{{'EDIT' | translate }}</a>
+</button>
+<phone-history/> 

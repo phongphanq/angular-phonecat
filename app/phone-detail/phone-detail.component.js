@@ -15,6 +15,10 @@ angular.
         self.setImage = function setImage(imageUrl) {
           self.mainImageUrl = imageUrl;
         };
+
+        self.getDetailEditUrl = function(){
+          return "#!/phones/" + self.phone.id + "/edit";
+        }
       }
     ]
   });

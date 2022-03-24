@@ -10,6 +10,9 @@
     "angular-animate": "1.8.x",
     "angular-resource": "1.8.x",
     "angular-route": "1.8.x",
+    "angular-message-format": "1.8.x",
+    "angular-translate": "2.19.x",
+    "angular-translate-loader-static-files": "2.19.x",
     "bootstrap": "3.3.x",
     "jquery": "3.3.x"
   },

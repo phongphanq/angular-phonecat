@@ -14,8 +14,8 @@
         "Vodafone"
     ], 
     "battery": {
-        "standbyTime": "428 hours", 
-        "talkTime": "6 hours", 
+        "standbyTime": "428", 
+        "talkTime": "6", 
         "type": "Lithium Ion (Li-Ion) (1500 mAH)"
     }, 
     "camera": {

@@ -8,8 +8,8 @@
         "Cellular South"
     ], 
     "battery": {
-        "standbyTime": "800 hours", 
-        "talkTime": "7 hours", 
+        "standbyTime": "800", 
+        "talkTime": "7", 
         "type": "Nickel Cadmium (NiCd) (1500 mAH)"
     }, 
     "camera": {

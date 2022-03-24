@@ -1,0 +1,11 @@
+<div>
+    <p class="phone-history-title">Recently viewed</p>
+    <ul class="phone-thumbs">
+        <li ng-repeat="phone in phones" class="thumbnail phone-history-detail">
+            <a href="{{getDetailUrl(phone)}}">
+                <img ng-src="{{phone.imageUrl}}" alt="{{phone.name}}" />
+            </a>
+            <a href="{{getDetailUrl(phone)}}">{{phone.name}}</a>
+        </li>
+    </ul>
+</div>

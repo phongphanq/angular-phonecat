@@ -1,18 +1,19 @@
 <div class="container-fluid">
+
   <div class="row">
     <div class="col-md-2">
       <!--Sidebar content-->
 
       <p>
-        Search:
+        {{'SEARCH' | translate }}
         <input ng-model="$ctrl.query" />
       </p>
 
       <p>
-        Sort by:
+        {{'SORT_BY' | translate }}
         <select ng-model="$ctrl.orderProp">
-          <option value="name">Alphabetical</option>
-          <option value="age">Newest</option>
+          <option value="name">{{'ALPHABETICAL' | translate }}</option>
+          <option value="age">{{'NEWEST' | translate }}</option>
         </select>
       </p>
 
@@ -22,15 +23,19 @@
 
       <ul class="phones">
         <li ng-repeat="phone in $ctrl.phones | filter:$ctrl.query | orderBy:$ctrl.orderProp"
-            class="thumbnail phone-list-item">
-          <a href="#!/phones/{{phone.id}}" class="thumb">
+          class="thumbnail phone-list-item">
+          <a href="{{$ctrl.getDetailUrl(phone)}}" class="thumb">
             <img ng-src="{{phone.imageUrl}}" alt="{{phone.name}}" />
           </a>
-          <a href="#!/phones/{{phone.id}}">{{phone.name}}</a>
-          <p>{{phone.snippet}}</p>
+          <a href="{{$ctrl.getDetailUrl(phone)}}">{{phone.name}}</a>
+          <!-- <p>{{phone.snippet}}</p> -->
+          <p>{{$root.lang, select,
+                vi {{{phone.snippet_vi}}}
+                other {{{phone.snippet}}}
+              }}</p>
         </li>
       </ul>
-
     </div>
   </div>
 </div>
+<phone-history/> 

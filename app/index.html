@@ -12,20 +12,31 @@
     <script src="lib/angular-animate/angular-animate.js"></script>
     <script src="lib/angular-resource/angular-resource.js"></script>
     <script src="lib/angular-route/angular-route.js"></script>
+    <script src="lib/angular-message-format/angular-message-format.js"></script>
+    <script src="lib/angular-translate/dist/angular-translate.js"></script>
+    <script src="lib/angular-translate-loader-static-files/angular-translate-loader-static-files.js"></script>
     <script src="app.module.js"></script>
     <script src="app.config.js"></script>
     <script src="app.animations.js"></script>
     <script src="core/core.module.js"></script>
-    <script src="core/checkmark/checkmark.filter.js"></script>
+    <script src="core/checkmark/checkmark.filter.js"></script>    
     <script src="core/phone/phone.module.js"></script>
     <script src="core/phone/phone.service.js"></script>
+    <script src="core/validator/integer.validator.js"></script>
     <script src="phone-list/phone-list.module.js"></script>
     <script src="phone-list/phone-list.component.js"></script>
     <script src="phone-detail/phone-detail.module.js"></script>
     <script src="phone-detail/phone-detail.component.js"></script>
+    <script src="phone-edit/phone-edit.module.js"></script>
+    <script src="phone-edit/phone-edit.component.js"></script>
+    <script src="phone-history/phone-history.module.js"></script>
+    <script src="phone-history/phone-history.directive.js"></script>
   </head>
   <body>
-
+    <div>
+      <button ng-click="changeLanguage('en')">{{'BUTTON_LANG_EN' | translate }}</button>
+      <button ng-click="changeLanguage('vi')">{{'BUTTON_LANG_VI' | translate }}</button>
+    </div>
     <div class="view-container">
       <div ng-view class="view-frame"></div>
     </div>

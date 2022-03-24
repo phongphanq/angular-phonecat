@@ -1,0 +1,28 @@
+<form name="form" class="css-form" novalidate ng-submit="form.$valid && $ctrl.updatePhone()">
+    <h1>{{$ctrl.phone.name}}</h1>
+
+    <p>{{$ctrl.phone.description}}</p>
+
+    <label style="width: 170px;">{{'AVAILABILITY' | translate }}</label>
+    <input type="text" name="availability" ng-model="$ctrl.phone.availability" required /><br />
+    <div ng-show="form.$submitted || form.availability.$touched">
+        <span class="error" ng-show="form.availability.$error.required">Please input availability.</span>
+    </div>
+
+    <label style="width: 170px;"></labelstyle>{{'TALK_TIME' | translate }}</label>
+    <input type="text" name="talkTime" ng-model="$ctrl.phone.battery.talkTime" required  integer/> hours<br />
+    <div ng-show="form.$submitted || form.talkTime.$touched">
+        <span class="error" ng-show="form.talkTime.$error.required">Please input Talk time.</span>
+        <span class="error" ng-show="form.talkTime.$error.integer">Talk time must be integer.</span>
+    </div>
+
+    <label style="width: 170px;">{{'STANDBY_TIME' | translate }}</label>
+    <input type="text" name="standbyTime" ng-model="$ctrl.phone.battery.standbyTime" required  integer/> hours<br />
+    <div ng-show="form.$submitted || form.standbyTime.$touched">
+        <span class="error" ng-show="form.standbyTime.$error.required">Please input Standby time.</span>
+        <span class="error" ng-show="form.standbyTime.$error.integer">Standby time must be integer.</span>
+    </div>
+
+    <input type="submit" value="{{'SAVE' | translate }}" /> <!--ng-click="$ctrl.updatePhone()" ng-disabled="form.$invalid"-->
+</form>
+<phone-history/> 

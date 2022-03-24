@@ -8,8 +8,8 @@
         "AT&T"
     ], 
     "battery": {
-        "standbyTime": "400 hours", 
-        "talkTime": "5 hours", 
+        "standbyTime": "400", 
+        "talkTime": "5", 
         "type": "Lithium Ion (Li-Ion) (1930 mAH)"
     }, 
     "camera": {

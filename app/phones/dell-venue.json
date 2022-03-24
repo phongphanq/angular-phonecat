@@ -10,8 +10,8 @@
         "T-Mobile"
     ], 
     "battery": {
-        "standbyTime": "400 hours", 
-        "talkTime": "7 hours", 
+        "standbyTime": "400", 
+        "talkTime": "7", 
         "type": "Lithium Ion (Li-Ion) (1400 mAH)"
     }, 
     "camera": {

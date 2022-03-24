@@ -8,8 +8,8 @@
         "US Cellular"
     ], 
     "battery": {
-        "standbyTime": "1000 hours", 
-        "talkTime": "7 hours", 
+        "standbyTime": "1000", 
+        "talkTime": "7", 
         "type": "Lithium Ion (Li-Ion) (1500 mAH)"
     }, 
     "camera": {

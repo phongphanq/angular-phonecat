@@ -11,7 +11,7 @@
         "Verizon"
     ], 
     "battery": {
-        "standbyTime": "780 hours", 
+        "standbyTime": "780", 
         "talkTime": "", 
         "type": "Lithium Ion (Li-Ion) (4000 mAH)"
     }, 
